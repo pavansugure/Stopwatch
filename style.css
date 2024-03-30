@@ -1,0 +1,45 @@
+body{
+    background: #edeaff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(/images/d.jpg);
+}
+
+.stopwatch{
+    width: 90%;
+    max-width: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(/images/brick.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+    margin: 200px auto 0 ;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.stopwatch h1{
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.button img{
+    width: 80px;
+    height: 80px;
+    margin: 20px 0;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+.button img:nth-child(2){
+    width: 100px;
+    
+}
